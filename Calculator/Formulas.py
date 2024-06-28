@@ -90,7 +90,7 @@ def slope_intercept():
 def exponential_graph():
     x,y = [],[]
     a = float(input("What is the value of a?\n"))
-    b = float(input("what is the value of b? (>0 for growth <0 for decay)\n"))
+    b = float(input("what is the value of b? ( >= 1 for growth < 1 for decay)\n"))
     x1 = float(input("What is the first x value?\n"))
     x2 = float(input("What is the last x value?\n"))
     x3 = (x2-x1)/100
